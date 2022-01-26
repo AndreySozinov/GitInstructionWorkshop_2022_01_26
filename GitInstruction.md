@@ -502,6 +502,29 @@ git rebase --abort
 
     git branch -D branch_name
 
+Копировать ветку 
+
+    git branch -c branch_name
+
+Раскрасить ветки
+
+    git branch --color
+
+Открытие редактора и добавление текста для чего эта ветка нужна
+
+    git checkout edit branch_name
+
+Посмотреть последний коммит на каждой ветке
+
+    git branch -v
+
+Быстро переключиться на ветку которую вы создаете
+
+    git switch branch_name
+
+Или 
+
+    git checkout -b branch_name
 
 ## Справка
 Чтобы вызвать справку по команде нужно дописать тег
